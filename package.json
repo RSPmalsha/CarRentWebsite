@@ -1,42 +1,24 @@
 {
-  "name": "login-page",
-  "version": "0.1.0",
-  "private": true,
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "sever.js",
+  "description": "",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "axios": "^0.21.4",
+    "axios": "^1.7.4",
     "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.2",
-    "bootstrap": "^5.3.3",
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "mysql": "^2.18.1",
     "mysql2": "^3.11.0",
-    "react": "^18.0.0",
-    "react-bootstrap": "^2.10.4",
-    "react-dom": "^18.0.0",
-    "react-router-dom": "^6.26.0",
-    "react-scripts": "^5.0.1",
-    "react-slick": "^0.30.2",
-    "reactstrap": "^9.2.2",
-    "remixicon": "^4.3.0",
-    "slick-carousel": "^1.8.1"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "nodemon": "^3.1.4"
   }
 }
