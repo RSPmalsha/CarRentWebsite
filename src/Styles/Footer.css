@@ -1,0 +1,40 @@
+.footer{
+    background: #740418;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+.footer_logo i{
+    color: #fff;
+    font-weight: 400;
+}
+.footer_logo span{
+    color: #fff;
+    font-weight: 500;
+}
+.footer_logo_content{
+    color: rgb(255, 255, 255,0.715);
+    margin-top: 15px;
+    line-height: 30px;
+}
+.quick_link{
+    border: none !important;
+    background: transparent !important;
+}
+.quick_link a{
+    color: rgb(255, 255, 255,0.715);
+    text-decoration: none;
+    font-weight: 300;
+}
+.quick_link a:hover{
+    color:  #d6d90ff1;
+}
+.footer_link_title{
+    color: #fff;
+}
+.office_info{
+    color: rgb(255, 255, 255,0.715);
+    font-weight: 300;
+}
+.footer_bottom{
+    border-top: 1px solid #7c8a9721;
+}

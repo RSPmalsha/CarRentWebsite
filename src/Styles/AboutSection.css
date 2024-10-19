@@ -1,0 +1,23 @@
+.section_title{
+    color: brown;
+}
+.about_section-content {
+    padding-right: 150px; /* Adjust the padding to make space for the image */
+  }
+  
+  .about_img {
+    position: absolute;
+    top: 0;
+    right: -150px;
+    width: 590px; /* Adjust the width as needed */
+    height: auto;
+    margin: 120px; /* Add margin to keep some space from the edge */
+    padding : 50px;
+  }
+  
+  .about_img img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
